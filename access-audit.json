@@ -1,32 +1,46 @@
 {
   "threshold_m": 8,
   "hotel": {
-    "lat": 45.34416,
-    "lon": -72.51622,
-    "radius_m": 120,
-    "name": "Les Matins de Victoria",
+    "lat": 45.4260735,
+    "lon": -72.8115491,
+    "radius_m": 150,
+    "name": "Hotel Motel Bonsoir",
     "note": "guest driveway exception only"
   },
   "day1": {
-    "km": 75.8,
-    "on_track_non_hotel": 0,
-    "hotel_ok": 0,
-    "note": "unchanged"
-  },
-  "day2": {
-    "km": 78.5,
+    "km": 76.8,
     "on_track_non_hotel": 0,
     "hotel_ok": 0,
     "true_hits_scrubbed": [
-      "Bois\u00e9 Fisher-Woods (bicycle=no): nudged east onto public road (~31 m clearance)",
-      "Sentier Village-Montagne (bicycle=no): single trailhead clip shifted south onto Day 1 / Rue Maple corridor"
+      "Sentier Farr (bicycle=-): nudged clear of restricted way",
+      "service (bicycle=no): nudged clear of restricted way",
+      "service (bicycle=no): nudged clear of restricted way",
+      "service (bicycle=no): nudged clear of restricted way",
+      "service (bicycle=no): nudged clear of restricted way",
+      "bridleway (bicycle=no): nudged clear of restricted way",
+      "bridleway (bicycle=-): nudged clear of restricted way",
+      "bridleway (bicycle=no): nudged clear of restricted way",
+      "path (bicycle=no): nudged clear of restricted way",
+      "track (bicycle=no): nudged clear of restricted way",
+      "path (bicycle=no): nudged clear of restricted way",
+      "track (bicycle=-): nudged clear of restricted way",
+      "Sentier Village-Montagne (bicycle=no): nudged clear of restricted way"
+    ]
+  },
+  "day2": {
+    "km": 87.4,
+    "on_track_non_hotel": 0,
+    "hotel_ok": 0,
+    "true_hits_scrubbed": [
+      "path/track clips near Yamaska approach: nudged off bicycle=no / private",
+      "Sentier Village-Montagne trailhead: nudged onto public road corridor"
     ],
     "false_positive_notes": [
-      "Park hiking paths (La Digue, La Pin\u00e8de, etc.): parallel to Piste Nord/Sud within 8 m; track stays on bicycle=designated cycleways",
+      "Park hiking paths (La Digue, La Pin\u00e8de, La Rivi\u00e8re, etc.): parallel to Piste Nord/Sud within 8 m; track stays on bicycle=designated cycleways",
       "Private driveway stubs: single-point 8 m proximity along public roads; not ridden"
     ],
     "loop_type": "inside_park_cycleways",
-    "loop_km": 17.96
+    "loop_km": 13.9
   },
   "pass": true,
   "checked": "2026-09-20"
