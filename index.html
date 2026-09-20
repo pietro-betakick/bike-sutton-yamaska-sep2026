@@ -36,6 +36,15 @@
   footer { margin-top:2.5rem; padding-top:1rem; border-top:1px solid var(--line); color:var(--muted); font-size:0.85rem; }
   a[download] { font-weight:600; }
   .price { font-variant-numeric: tabular-nums; font-weight:600; }
+  .day-block { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:1rem 1.15rem; margin:0.85rem 0; }
+  .day-block h3 { margin-top:0; margin-bottom:0.5rem; font-size:1.05rem; }
+  .day-block h3 .tag { font-size:0.72rem; text-transform:uppercase; letter-spacing:0.04em; color:var(--muted); font-weight:600; margin-left:0.35rem; }
+  table.compact td, table.compact th { padding:0.45rem 0.55rem; font-size:0.92rem; }
+  .stop-list { list-style:none; padding-left:0; margin:0.5rem 0 0; }
+  .stop-list li { border-top:1px solid var(--line); padding:0.65rem 0; }
+  .stop-list li:first-child { border-top:none; padding-top:0; }
+  .stop-list strong { display:block; }
+  .km { font-variant-numeric:tabular-nums; color:var(--muted); font-size:0.88rem; }
 </style>
 </head>
 <body>
@@ -95,6 +104,117 @@
     <p><a href="https://www.booking.com/hotel/ca/les-matins-de-victoria.html?checkin=2026-09-21&checkout=2026-09-22&group_adults=2&no_rooms=1&selected_currency=CAD" rel="noopener" target="_blank">Booking.com</a></p>
   </article>
 
+
+  <h2>Pacing</h2>
+  <p class="muted">Loaded gravel, two riders. Steady plan is about 18 km/h moving. Both days stay under about 6 h in the saddle at steady if you keep rolling. Grades are DEM estimates from Mapzen (not survey truth).</p>
+  <div class="day-block">
+    <h3 class="row-icon"><i data-lucide="timer"></i> Day 1 · Sutton to Waterloo <span class="tag">~75.8 km · ~748 m up</span></h3>
+    <ul>
+      <li><strong>Steady ~18 km/h:</strong> about 5 h 15 moving with climbs; with lunch and cafes about 6.5-7 h elapsed</li>
+      <li><strong>Easy ~16 km/h:</strong> about 5 h 45 moving with climbs</li>
+      <li><strong>Push ~20 km/h:</strong> about 4 h 45 moving with climbs</li>
+    </ul>
+    <p class="muted">Practical: roll about 08:00 from Mont Sutton; lunch Bromont ~km 39 around 11:00-12:00; Waterloo mid-late afternoon.</p>
+  </div>
+  <div class="day-block">
+    <h3 class="row-icon"><i data-lucide="timer"></i> Day 2 · Waterloo to Mont Sutton <span class="tag">~78.5 km · ~588 m up</span></h3>
+    <ul>
+      <li><strong>Steady ~18 km/h:</strong> about 5 h 10 moving with climbs; with lunch and cafes about 6.5-7 h elapsed</li>
+      <li><strong>Easy ~16 km/h:</strong> about 5 h 40 moving with climbs</li>
+      <li><strong>Push ~20 km/h:</strong> about 4 h 45 moving with climbs</li>
+    </ul>
+    <p class="muted">Less total climb than Day 1, but the hard climbs stack after Knowlton. Leave Waterloo about 08:00-08:30; lunch Knowlton ~km 57 before Mont-Echo.</p>
+  </div>
+
+  <h2>Steepest climbs</h2>
+  <p class="muted">Top grades over a 200-500 m window. Short gravel ramps, nothing alpine.</p>
+  <div class="day-block">
+    <h3>Day 1</h3>
+    <table class="compact">
+      <thead><tr><th>Grade</th><th>Km</th><th>Place</th></tr></thead>
+      <tbody>
+        <tr><td><strong>~8.8%</strong></td><td>22.2</td><td>Chemin King / Lac-Brome</td></tr>
+        <tr><td><strong>~8.3%</strong></td><td>35.4</td><td>Chemin de Missisquoi / Bromont</td></tr>
+        <tr><td><strong>~8.0%</strong></td><td>5.5</td><td>Chemin Woodard / Sutton</td></tr>
+        <tr><td><strong>~7.2%</strong></td><td>63.6</td><td>Chemin Boulay / Shefford</td></tr>
+        <tr><td><strong>~6.4%</strong></td><td>53.5</td><td>Chemin Saxby Sud / Shefford</td></tr>
+      </tbody>
+    </table>
+    <p class="muted">Longest grind late: Boulay ~+72 m over 1.7 km from ~km 63.</p>
+  </div>
+  <div class="day-block">
+    <h3>Day 2</h3>
+    <table class="compact">
+      <thead><tr><th>Grade</th><th>Km</th><th>Place</th></tr></thead>
+      <tbody>
+        <tr><td><strong>~9.6%</strong></td><td>57.8</td><td>Chemin du Mont-Echo / Knowlton</td></tr>
+        <tr><td><strong>~8.3%</strong></td><td>63.6</td><td>Chemin Boivin / Lac-Brome</td></tr>
+        <tr><td><strong>~7.5%</strong></td><td>59.1</td><td>Chemin Sugar Hill / Knowlton</td></tr>
+        <tr><td><strong>~7.4%</strong></td><td>69.5</td><td>Chemin du Mont-Echo / Sutton</td></tr>
+        <tr><td><strong>~6.9%</strong></td><td>76.7</td><td>Chemin Harold / Sutton (near finish)</td></tr>
+      </tbody>
+    </table>
+    <p class="muted">Biggest block: Knowlton to Mont-Echo ~+130 m over 2.8 km from ~km 56.7. Eat in Knowlton first.</p>
+  </div>
+
+  <h2>Lunch</h2>
+  <div class="warn">
+    Open hours below are from public listings. Mid-late September weekday hours can shift. Check Mon/Tue morning-of by phone or Google.
+  </div>
+  <div class="day-block">
+    <h3 class="row-icon"><i data-lucide="utensils"></i> Day 1 · Bromont corridor <span class="tag">~km 39</span></h3>
+    <ul class="stop-list">
+      <li>
+        <strong>n latte Bromont</strong>
+        <span class="km">~km 39.1 · 840 Rue Shefford · primary pick</span>
+        Specialty coffee and real lunch (sandwiches, salads, bowls). Listed open Mon-Sun about 07:30-16:00.
+      </li>
+      <li>
+        <strong>Confiserie Bromont / Musee du chocolat</strong>
+        <span class="km">~km 39.3 · 679 Rue Shefford · backup</span>
+        Bistro lunch vibe plus pastry. Good if n latte is packed. Confirm lunch service Mon.
+      </li>
+      <li>
+        <strong>Cafe 1792</strong>
+        <span class="km">~km 39.2 · 715 Rue Shefford · backup / short stop</span>
+        Bagels, pastry, soup energy. Safer as a cafe stop than primary lunch unless hours confirmed.
+      </li>
+    </ul>
+  </div>
+  <div class="day-block">
+    <h3 class="row-icon"><i data-lucide="utensils"></i> Day 2 · Knowlton / Lac-Brome <span class="tag">~km 57</span></h3>
+    <p class="muted">Carry a snack for the lake loop. Little reliable on-track lunch between Yamaska park and Knowlton. Eat before the Mont-Echo climbs.</p>
+    <ul class="stop-list">
+      <li>
+        <strong>Raffields</strong>
+        <span class="km">~km 57.1 · 255 Chemin Knowlton · top Mon/Tue pick</span>
+        Crepes, sandwiches, bakery-cafe. Official hours Mon and Tue 08:00-15:00 (Wed-Thu closed).
+      </li>
+      <li>
+        <strong>Bistro LeRelais (Auberge Knowlton)</strong>
+        <span class="km">~km 57.1 · 286 Chemin Knowlton · sit-down</span>
+        Proper bistro plate after the lake. Listed Mon-Tue 11:30-20:00. Bike storage culture at the auberge.
+      </li>
+    </ul>
+  </div>
+
+  <h2>Cafes</h2>
+  <div class="day-block">
+    <h3>Day 1 arrival · Waterloo</h3>
+    <ul>
+      <li><strong>Cafe Miche et Delice</strong> · <span class="km">~km 75.5</span> · 5387 Rue Foster · bakery coffee; listed Mon-Tue 06:00-15:00</li>
+      <li><strong>Resto L'Express</strong> · <span class="km">~km 74.9</span> · 6250 Rue Foster · diner breakfast/lunch; listed Mon-Tue 07:00-14:00</li>
+    </ul>
+    <p class="muted">Also useful as Day 2 breakfast before roll-out.</p>
+  </div>
+  <div class="day-block">
+    <h3>Day 2 · Knowlton and finish</h3>
+    <ul>
+      <li><strong>Raffields / Auberge Knowlton</strong> · <span class="km">~km 57.1</span> · coffee with lunch (see above)</li>
+      <li><strong>Sutton village cafes</strong> (Yamabiko, MO'CAFE, Le Pleasant) · about <strong>2.4 km detour</strong> from the Mont Sutton finish into Principale. Not on the finish spur. Yamabiko often listed Tue closed. Confirm morning-of if you want a village stop after the ride.</li>
+    </ul>
+  </div>
+
   <h2>Track sources</h2>
   <ul>
     <li><strong>Day 1 (~75.8 km):</strong> Official Gravelee stage 1 (Le Quebec a velo / bikepacking.com Eastern Townships) public GPX, cut short toward Waterloo; short public bike spur to Les Matins de Victoria. Private and bicycle=no clips scrubbed onto public-road alternatives. Lake is not on Day 1.</li>
@@ -107,9 +227,9 @@
   <h2>Notes</h2>
   <ul>
     <li>Drive Outremont to Mont Sutton about 1 h 50. Roll by about 8:00 Mon.</li>
-    <li>Monday food: N-Latte in Bromont is the reliable stop (Day 1 corridor only).</li>
     <li>About 4 km spur off stage 1 into Waterloo for the hotel.</li>
-    <li>Day 2 is about 78.5 km (within the 75-85 km aim): Yamaska lake loop on park cycleways, then quieter roads through Knowlton to Mont Sutton. Lunch in Knowlton, then finish and drive home. Sepaq day access applies for the park loop.</li>
+    <li>Day 2: Sepaq day access applies for the Yamaska park lake loop. Finish Mont Sutton mid-late afternoon, then drive home.</li>
+    <li>Nothing is booked. Confirm cafe and lunch hours Mon/Tue morning-of.</li>
   </ul>
 
   <h2>Downloads</h2>
