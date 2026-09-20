@@ -1,49 +1,30 @@
 {
-  "name": "Hotel Motel Bonsoir",
-  "town": "Granby QC",
-  "address": "1587 rue Principale, Granby J2J 0S5",
-  "lat": 45.4260735,
-  "lon": -72.8115491,
+  "name": "Les Matins de Victoria",
+  "town": "Waterloo QC",
+  "address": "950 rue Western, Waterloo QC",
+  "lat": 45.34416,
+  "lon": -72.51622,
   "options": [
     {
-      "room": "Classic Room - Two Double Beds with Wood Floor",
-      "beds": "2 full beds",
-      "cad": 139,
-      "bath": "private"
+      "room": "One-Bedroom Suite",
+      "beds": "1 twin + 1 queen",
+      "cad": 184,
+      "bath": "private suite"
     },
     {
-      "room": "Classic Room - Two Queen Beds with Wood Floor",
-      "beds": "2 queen beds",
-      "cad": 149,
-      "bath": "private"
-    },
-    {
-      "room": "Classic Queen Room with Wood Floor",
-      "beds": "1 queen",
-      "cad": 129,
-      "bath": "private",
-      "note": "1 left at check"
+      "room": "Queen Room with Shared Bathroom",
+      "beds": "2 queens",
+      "cad": 154,
+      "bath": "shared"
     }
   ],
-  "alternatives": [
-    {
-      "name": "Les Matins de Victoria",
-      "town": "Waterloo QC",
-      "note": "optional fallback only",
-      "options": [
-        {"room": "One-Bedroom Suite", "beds": "1 twin + 1 queen", "cad": 184, "bath": "private suite"},
-        {"room": "Queen Room with Shared Bathroom", "beds": "2 queens", "cad": 154, "bath": "shared"}
-      ],
-      "booking": "https://www.booking.com/hotel/ca/les-matins-de-victoria.html?checkin=2026-09-21&checkout=2026-09-22&group_adults=2&no_rooms=1&selected_currency=CAD"
-    }
-  ],
-  "booking": "https://www.booking.com/hotel/ca/motel-bonsoir.html?checkin=2026-09-21&checkout=2026-09-22&group_adults=2&no_rooms=1&selected_currency=CAD",
+  "booking": "https://www.booking.com/hotel/ca/les-matins-de-victoria.html?checkin=2026-09-21&checkout=2026-09-22&group_adults=2&no_rooms=1&selected_currency=CAD",
   "checked": "2026-09-20",
   "booked": false,
   "notes": [
-    "Motel des Deux Lacs: official site offline (404); not listing for these dates on Booking.",
-    "Le Camp Cache Shefford: not available Mon 21-Tue 22 on Booking.",
-    "Roxton Pond: 0 hotel properties on Booking for these dates.",
-    "Granby is last-resort corridor; Bonsoir is the only live-checked motel with two beds + private bath near Yamaska."
+    "Park-edge / Roxton Pond / Shefford hotel-style stays checked live: nothing available Mon 21 to Tue 22 Sep 2026 closer than Waterloo.",
+    "Granby Motel Bonsoir dropped (off-track west of the park).",
+    "Prefer suite twin+queen private bath (~CAD 184); alt 2 queens shared bath (~CAD 154).",
+    "Booking.com live re-check Sun 20 Sep 2026 returned bot-wall (HTTP 202); suite ~CAD 184 / 2-queen shared ~CAD 154 retained from earlier same-day listing. Nothing booked."
   ]
 }

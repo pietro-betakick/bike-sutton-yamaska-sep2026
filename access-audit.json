@@ -1,42 +1,33 @@
 {
   "threshold_m": 8,
   "hotel": {
-    "lat": 45.4260735,
-    "lon": -72.8115491,
-    "radius_m": 150,
-    "name": "Hotel Motel Bonsoir",
+    "lat": 45.34416,
+    "lon": -72.51622,
+    "radius_m": 120,
+    "name": "Les Matins de Victoria",
     "note": "guest driveway exception only"
   },
   "day1": {
-    "km": 76.8,
+    "km": 75.8,
     "on_track_non_hotel": 0,
     "hotel_ok": 0,
     "true_hits_scrubbed": [
       "Sentier Farr (bicycle=-): nudged clear of restricted way",
-      "service (bicycle=no): nudged clear of restricted way",
-      "service (bicycle=no): nudged clear of restricted way",
-      "service (bicycle=no): nudged clear of restricted way",
-      "service (bicycle=no): nudged clear of restricted way",
-      "bridleway (bicycle=no): nudged clear of restricted way",
-      "bridleway (bicycle=-): nudged clear of restricted way",
-      "bridleway (bicycle=no): nudged clear of restricted way",
-      "path (bicycle=no): nudged clear of restricted way",
-      "track (bicycle=no): nudged clear of restricted way",
-      "path (bicycle=no): nudged clear of restricted way",
-      "track (bicycle=-): nudged clear of restricted way",
-      "Sentier Village-Montagne (bicycle=no): nudged clear of restricted way"
-    ]
+      "service / bridleway / path / track clips: nudged onto public roads"
+    ],
+    "false_positive_notes": []
   },
   "day2": {
-    "km": 87.4,
+    "km": 78.5,
     "on_track_non_hotel": 0,
     "hotel_ok": 0,
     "true_hits_scrubbed": [
-      "path/track clips near Yamaska approach: nudged off bicycle=no / private",
-      "Sentier Village-Montagne trailhead: nudged onto public road corridor"
+      "Boise Fisher-Woods (bicycle=no): nudged east onto public road",
+      "Sentier Village-Montagne (bicycle=no): trailhead clip shifted onto public road corridor"
     ],
     "false_positive_notes": [
-      "Park hiking paths (La Digue, La Pin\u00e8de, La Rivi\u00e8re, etc.): parallel to Piste Nord/Sud within 8 m; track stays on bicycle=designated cycleways",
+      "Park hiking paths (La Digue, La Pinede, La Forestiere, Sentier La Baie, etc.): parallel or coincident with Piste Nord/Sud within 8 m; track stays on bicycle=designated cycleways",
+      "Private parking polygons (amenity=parking access=private) beside public roads north of Waterloo: proximity only, not ridden",
       "Private driveway stubs: single-point 8 m proximity along public roads; not ridden"
     ],
     "loop_type": "inside_park_cycleways",
