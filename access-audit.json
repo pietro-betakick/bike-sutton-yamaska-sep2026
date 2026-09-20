@@ -1,0 +1,33 @@
+{
+  "threshold_m": 8,
+  "hotel": {
+    "lat": 45.34416,
+    "lon": -72.51622,
+    "radius_m": 120,
+    "name": "Les Matins de Victoria",
+    "note": "guest driveway exception only"
+  },
+  "day1": {
+    "km": 75.8,
+    "on_track_non_hotel": 0,
+    "hotel_ok": 0,
+    "note": "unchanged"
+  },
+  "day2": {
+    "km": 78.5,
+    "on_track_non_hotel": 0,
+    "hotel_ok": 0,
+    "true_hits_scrubbed": [
+      "Bois\u00e9 Fisher-Woods (bicycle=no): nudged east onto public road (~31 m clearance)",
+      "Sentier Village-Montagne (bicycle=no): single trailhead clip shifted south onto Day 1 / Rue Maple corridor"
+    ],
+    "false_positive_notes": [
+      "Park hiking paths (La Digue, La Pin\u00e8de, etc.): parallel to Piste Nord/Sud within 8 m; track stays on bicycle=designated cycleways",
+      "Private driveway stubs: single-point 8 m proximity along public roads; not ridden"
+    ],
+    "loop_type": "inside_park_cycleways",
+    "loop_km": 17.96
+  },
+  "pass": true,
+  "checked": "2026-09-20"
+}
