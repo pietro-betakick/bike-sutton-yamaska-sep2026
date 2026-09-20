@@ -1,0 +1,23 @@
+{
+  "name": "Les Matins de Victoria",
+  "town": "Waterloo QC",
+  "lat": 45.3442,
+  "lon": -72.5162,
+  "options": [
+    {
+      "room": "Classic Suite / One-Bedroom Suite",
+      "beds": "1 twin + 1 queen",
+      "cad": 184,
+      "bath": "confirm private"
+    },
+    {
+      "room": "Queen Room with Shared Bathroom",
+      "beds": "2 queens",
+      "cad": 154,
+      "bath": "shared"
+    }
+  ],
+  "booking": "https://www.booking.com/hotel/ca/les-matins-de-victoria.html?checkin=2026-09-21&checkout=2026-09-22&group_adults=2&no_rooms=1",
+  "checked": "2026-09-19",
+  "booked": false
+}
